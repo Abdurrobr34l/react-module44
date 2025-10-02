@@ -10,23 +10,24 @@ const SimpleForm = () => {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <h2 className="title">Simple Form</h2>
+      <form onSubmit={handleSubmit} className="text-center">
         <input
           type="text"
           name="name"
           placeholder="Your Name"
-          className="p-2 border-2 rounded-xl"
         />
         <br />
         <input
           type="email"
           name="email"
           placeholder="Your Email Address"
-          className="p-2 border-2 rounded-xl"
         />
         <br />
         <button type="submit">Submit Button</button>
       </form>
+
+      <p className="keyNote">How to take an value from input is shown in this page, check console before clicking the cubmit button. Check SimpleForm file to understand it</p>
     </div>
   );
 };
