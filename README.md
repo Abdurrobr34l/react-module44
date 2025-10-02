@@ -5,6 +5,6 @@
 `How to get data from input files`
 
 ```
-- e.target.[name of the input field].value
+- e.target.[name of the input field].value (CHECK simpleForm COMPONENT CODES)
 
 ````
