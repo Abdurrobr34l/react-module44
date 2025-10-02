@@ -16,9 +16,15 @@ const router = createBrowserRouter([
     Component: App,
     children: [
       { index: true, Component: Home },
-      { path: "simpleForm", Component: SimpleForm },
-      { path: "formAction", Component: FormAction },
+      { path: "simple-form", Component: SimpleForm },
+      { path: "form-action", Component: FormAction },
     ],
+  },
+
+  //* NOT FOUND PAGE
+  {
+    path: "*",
+    element: <h1 className="text-7xl font-extrabold place-self-center place-content-center h-screen text-violet-600">Page Not Found: 404 Status</h1>,
   },
 ]);
 

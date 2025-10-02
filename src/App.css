@@ -14,13 +14,12 @@
 }
 
 a {
-  font-weight: 500;
-  color: #7f22fe;
+  font-weight: 600;
+  color: #e17100;
   text-decoration: inherit;
   
   &:hover {
-    color: #7f22fed3;
-    color: #ffffff;
+    color: #ffd230;
   }
 }
 
@@ -37,7 +36,7 @@ button {
   transition: border-color 0.25s;
 
   &:hover {
-    border-color: #7f22fe;
+    border-color: #ffd230;
   }
 
   &:focus,

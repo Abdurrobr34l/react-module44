@@ -1,11 +1,15 @@
 @import "tailwindcss";
 
 .title {
-  @apply my-10 text-5xl font-bold text-violet-600 text-center;
+  @apply my-10 text-5xl font-bold text-amber-600 text-center;
 }
 
 .keyNote {
   @apply mx-auto mt-10 font-medium text-amber-300 text-center w-[335px] md:w-[400px];
+}
+
+.active {
+  @apply text-amber-300;
 }
 
 input {
