@@ -13,5 +13,5 @@
 }
 
 input {
-  @apply my-2 p-2 border-2 rounded-xl;
+  @apply my-2 p-4 w-[335px] border-2 rounded-xl;
 }

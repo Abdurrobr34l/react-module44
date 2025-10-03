@@ -1,16 +1,27 @@
 import React from "react";
 
 const ControlledField = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    e.target.email.value = "";
+    e.target.password.value = "";
+  };
+
   return (
     <div>
       <h2 className="title">Controlled Field</h2>
 
-      <form className="text-center">
-        <input type="text" name="name" placeholder='Your Name' />
+      <form onSubmit={handleSubmit} className="text-center">
+        <input type="email" name="email" placeholder="Your email" required />
         <br />
-        <input type="email" name="email" placeholder='Your email' />
+        <input
+          type="password"
+          name="password"
+          placeholder="Your Password"
+          required
+        />
         <br />
-        <button type='submit'>Submit</button>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
