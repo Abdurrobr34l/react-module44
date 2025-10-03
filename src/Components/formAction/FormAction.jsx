@@ -17,6 +17,7 @@ const FormAction = () => {
         <input type="email" name="email" placeholder='Your email' />
         <br />
         <button type='submit'>Submit</button>
+        <button>New</button>
       </form>
     </div>
   );
