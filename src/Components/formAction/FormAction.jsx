@@ -17,8 +17,11 @@ const FormAction = () => {
         <input type="email" name="email" placeholder='Your email' />
         <br />
         <button type='submit'>Submit</button>
-        <button>New</button>
       </form>
+
+      <p className='keyNote'>
+        Form er action attribute ta ekane use kora hoise to get input value.
+      </p>
     </div>
   );
 };
