@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+/** NAVLINK ACTIVE STATE STYLE START */
+.active {
+  @apply text-amber-300;
+}
+/** NAVLINK ACTIVE STATE STYLE END */
+
+/** COMMON STYLE START */
 .title {
   @apply my-10 text-5xl font-bold text-amber-600 text-center;
 }
@@ -8,10 +15,23 @@
   @apply mx-auto mt-10 font-medium text-amber-300 text-center w-[335px] md:w-[400px];
 }
 
-.active {
-  @apply text-amber-300;
-}
-
 input {
   @apply my-2 p-4 w-[335px] border-2 rounded-xl;
 }
+/** COMMON STYLE END */
+
+/** TABLE STYLE START */
+.thead {
+  @apply bg-white/20 text-left
+}
+.th {
+  @apply py-3 px-4
+}
+
+.tr {
+  @apply hover:bg-white/20 transition-colors border-b border-white/10
+}
+.td {
+  @apply py-2 px-4
+}
+/** TABLE STYLE END */

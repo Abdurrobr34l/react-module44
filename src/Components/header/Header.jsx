@@ -8,6 +8,7 @@ const Header = () => {
     {id:2, link:"/simple-form", name:"Simple Form"},
     {id:3, link:"/form-action", name:"Form Action"},
     {id:4, link:"/controlled-field", name:"Controlled Field"},
+    {id:5, link:"/product-management", name:"Product Management"},
   ]
 
   const [btnClicked, setBtnClicked] = useState(false);

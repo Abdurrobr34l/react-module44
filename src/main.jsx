@@ -9,6 +9,7 @@ import SimpleForm from "./Components/simpleForm/SimpleForm.jsx";
 import Home from "./Components/home/Home.jsx";
 import FormAction from "./Components/formAction/FormAction.jsx";
 import ControlledField from "./Components/controlledField/ControlledField.jsx";
+import ProdeuctManagement from "./Components/productManagement/ProductManagement.jsx";
 
 
 const router = createBrowserRouter([
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       { path: "simple-form", Component: SimpleForm },
       { path: "form-action", Component: FormAction },
       { path: "controlled-field", Component: ControlledField },
+      {path: "product-management", Component: ProdeuctManagement},
     ],
   },
 

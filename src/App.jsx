@@ -5,6 +5,7 @@ import ControlledField from "./Components/controlledField/ControlledField";
 import FormAction from "./Components/formAction/FormAction";
 import SimpleForm from "./Components/simpleForm/SimpleForm";
 import Header from "./Components/header/Header";
+import ProdeuctManagement from "./Components/productManagement/ProductManagement";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <SimpleForm></SimpleForm>
         <FormAction></FormAction>
         <ControlledField></ControlledField>
+        <ProdeuctManagement></ProdeuctManagement>
         </Outlet>
 
       </Container>
