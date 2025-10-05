@@ -3,8 +3,8 @@ import React from "react";
 const ProdectTable = ({ products }) => {
   // console.log(products);
   return (
-    <div className="overflow-auto my-10">
-      <h2 className="title !mb-5 !text-2xl !text-white">Products Tables</h2>
+    <div className="overflow-auto my-10 lg:mt-0">
+      <h2 className="title !mb-5 !text-2xl !text-white lg:!mb-2">Products Tables</h2>
 
       <table className="w-full border-collapse bg-white/10 text-white rounded-lg overflow-hidden">
         <thead className="thead">

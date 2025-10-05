@@ -24,11 +24,11 @@ const ProductForm = ({handleAddProduct}) => {
     <div>
       <h2 className="title !mb-0 !text-2xl !text-white">Add Your Product</h2>
       <form onSubmit={handleProductSubmit} className="text-center">
-        <input type="text" name="name" placeholder="Product Name" />
+        <input type="text" name="name" placeholder="Product Name" required/>
         <br />
-        <input type="text" name="price" placeholder="Product price" />
+        <input type="number" name="price" placeholder="Product price" min={1} required/>
         <br />
-        <input type="text" name="quantity" placeholder="Product quantity" />
+        <input type="number" name="quantity" placeholder="Product quantity" min={1} required/>
         <br />
         <button type="submit">Submit</button>
       </form>
