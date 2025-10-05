@@ -22,16 +22,24 @@ input {
 
 /** TABLE STYLE START */
 .thead {
-  @apply bg-white/20 text-left
+  @apply bg-white/20 text-left;
 }
 .th {
-  @apply py-3 px-4
+  @apply py-3 px-4;
 }
 
 .tr {
-  @apply hover:bg-white/20 transition-colors border-b border-white/10
+  @apply hover:bg-white/20 transition-colors border-b border-white/10;
 }
 .td {
-  @apply py-2 px-4 text-center
+  @apply py-2 px-4 text-center;
 }
 /** TABLE STYLE END */
+
+.childrens {
+  @apply flex justify-center gap-10;
+}
+
+.children {
+  @apply !my-5 !text-2xl border px-3 py-4 rounded-lg;
+}

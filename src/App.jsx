@@ -6,6 +6,7 @@ import FormAction from "./Components/formAction/FormAction";
 import SimpleForm from "./Components/simpleForm/SimpleForm";
 import Header from "./Components/header/Header";
 import ProdeuctManagement from "./Components/productManagement/ProductManagement";
+import FamilyTree from "./Components/familyTree/FamilyTree";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <FormAction></FormAction>
         <ControlledField></ControlledField>
         <ProdeuctManagement></ProdeuctManagement>
+        <FamilyTree></FamilyTree>
         </Outlet>
 
       </Container>

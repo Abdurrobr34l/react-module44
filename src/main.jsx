@@ -10,7 +10,7 @@ import Home from "./Components/home/Home.jsx";
 import FormAction from "./Components/formAction/FormAction.jsx";
 import ControlledField from "./Components/controlledField/ControlledField.jsx";
 import ProdeuctManagement from "./Components/productManagement/ProductManagement.jsx";
-
+import FamilyTree from "./Components/familyTree/FamilyTree.jsx";
 
 const router = createBrowserRouter([
   {
@@ -21,17 +21,21 @@ const router = createBrowserRouter([
       { path: "simple-form", Component: SimpleForm },
       { path: "form-action", Component: FormAction },
       { path: "controlled-field", Component: ControlledField },
-      {path: "product-management", Component: ProdeuctManagement},
+      { path: "product-management", Component: ProdeuctManagement },
+      { path: "family-tree", Component: FamilyTree },
     ],
   },
 
   //* NOT FOUND PAGE
   {
     path: "*",
-    element: <h1 className="text-7xl font-extrabold place-self-center place-content-center h-screen text-violet-600">Page Not Found: 404 Status</h1>,
+    element: (
+      <h1 className="text-7xl font-extrabold place-self-center place-content-center h-screen text-violet-600">
+        Page Not Found: 404 Status
+      </h1>
+    ),
   },
 ]);
-
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
