@@ -14,7 +14,7 @@ const ProdeuctManagement = () => {
     <div>
       <h1 className='title'>Product Management</h1>
       
-      <div className='flex justify-center gap-20'>
+      <div className='flex flex-col lg:flex-row lg:justify-center lg:gap-20'>
         <ProductForm handleAddProduct={handleAddProduct}></ProductForm>
       <ProdectTable products={products}></ProdectTable>
       </div>
